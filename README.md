@@ -2,7 +2,6 @@
 
 This repository contains the python file that contains a GPIO map for all of the different hardware combinations to be supported by the Nebra Helium Hotspot Software.
 
-
 All numbers below are their GPIO / BCM Numbers, not physical pin numbers.
 
 Note: Light hotspot software will work on all listed as variant "full"
