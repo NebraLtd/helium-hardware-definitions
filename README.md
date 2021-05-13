@@ -45,3 +45,12 @@ Please note, DIY Hotspots do not earn HNT.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Pi Supply IoT LoRa Gateway HAT | RPi | DIY-PISLGH | 0.0 | 22 |   |   | Light | Any pi with 40 pin header |
 | RAK2287 | RPi | DIY-RAK2287 | 0.0 | 17 |   |   | Light | Any pi with 40 pin header |
+
+# Contributing
+
+If there is hardware that you would like supported the following would be great.
+
+Either:
+
+* Create an issue on this repository which has the name of the Hotspot, or DIY solution. With at a minimum a link to a pinout of the device and which SBC it is to be used with.
+* Fork this repository and  the device to the array in variant_definitions, update the table above and then create a pull request.
