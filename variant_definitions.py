@@ -10,8 +10,30 @@ variant_definitions = {
         'TYPE': "Full"
         },
 
+    # Nebra Indoor Hotspot, Old identifier
+    "Indoor" : {
+        'SPIBUS': 'spidev1.2',
+        'RESET' : 38,
+        'MAC' : 'eth0',
+        'STATUS': 25,
+        'BUTTON': 26,
+        'ECCOB': True,
+        'TYPE': "Full"
+        },
+
     # Nebra Outdoor Hotspot Gen1
     "NEBHNT-OUT1" : {
+        'SPIBUS': 'spidev1.2',
+        'RESET' : 38,
+        'MAC' : 'eth0',
+        'STATUS': 25,
+        'BUTTON': 26,
+        'ECCOB': True,
+        'TYPE': "Full"
+        },
+
+    # Nebra Outdoor Hotspot Old Identifier
+    "Outdoor" : {
         'SPIBUS': 'spidev1.2',
         'RESET' : 38,
         'MAC' : 'eth0',
