@@ -1,6 +1,7 @@
 variant_definitions = {
     # Nebra Indoor Hotspot Gen1
     "NEBHNT-IN1" : {
+        'FRIENDLY': 'Nebra Indoor Hotspot Gen 1',
         'SPIBUS': 'spidev1.2',
         'RESET' : 38,
         'MAC' : 'eth0',
@@ -12,6 +13,7 @@ variant_definitions = {
 
     # Nebra Indoor Hotspot, Old identifier
     "Indoor" : {
+        'FRIENDLY': 'Nebra Indoor Hotspot Gen 1',
         'SPIBUS': 'spidev1.2',
         'RESET' : 38,
         'MAC' : 'eth0',
@@ -23,6 +25,7 @@ variant_definitions = {
 
     # Nebra Outdoor Hotspot Gen1
     "NEBHNT-OUT1" : {
+        'FRIENDLY': 'Nebra Outdoor Hotspot Gen 1',
         'SPIBUS': 'spidev1.2',
         'RESET' : 38,
         'MAC' : 'eth0',
@@ -34,6 +37,7 @@ variant_definitions = {
 
     # Nebra Outdoor Hotspot Old Identifier
     "Outdoor" : {
+        'FRIENDLY': 'Nebra Outdoor Hotspot Gen 1',
         'SPIBUS': 'spidev1.2',
         'RESET' : 38,
         'MAC' : 'eth0',
@@ -45,6 +49,7 @@ variant_definitions = {
 
     # Nebra Pi 0 Light Hotspot SPI Ethernet
     "NEBHNT-LGT-ZS" : {
+        'FRIENDLY': 'Nebra Pi 0 Light Hotspot SE',
         'SPIBUS': 'spidev1.2',
         'RESET' : 22,
         'MAC' : 'wlan0',
@@ -56,6 +61,7 @@ variant_definitions = {
 
     # Nebra Pi 0 Light Hotspot USB Ethernet
     "NEBHNT-LGT-ZX" : {
+        'FRIENDLY': 'Nebra Pi 0 Light Hotspot XE',
         'SPIBUS': 'spidev1.2',
         'RESET' : 22,
         'MAC' : 'wlan0',
@@ -67,6 +73,7 @@ variant_definitions = {
 
     # Nebra Beaglebone Light Hotspot
     "NEBHNT-BBB" : {
+        'FRIENDLY': 'Nebra Beaglebone Light Hotspot',
         'SPIBUS': 'spidev1.0',
         'RESET' : 60,
         'MAC' : 'eth0',
@@ -78,6 +85,7 @@ variant_definitions = {
 
     # Nebra Pocket Beagle Light Hotspot
     "NEBHNT-PBB" : {
+        'FRIENDLY': 'Nebra Pocket Beagle Light Hotspot',
         'SPIBUS': 'spidev1.2',
         'RESET' : 60,
         'MAC' : 'wlan0',
@@ -89,6 +97,7 @@ variant_definitions = {
 
     # Nebra Hotspot HAT Rockpi 4
     "NEBHNT-HHRK4" : {
+        'FRIENDLY': 'Nebra Hotspot HAT RockPi 4',
         'SPIBUS': 'spidev1.0',
         'RESET' : 149,
         'MAC' : 'eth0',
@@ -99,6 +108,7 @@ variant_definitions = {
 
     # Nebra Hotspot HAT RPi 3/4 Full
     "NEBHNT-HHRPI" : {
+        'FRIENDLY': 'Nebra Hotspot HAT RPi',
         'SPIBUS': 'spidev0.0',
         'RESET' : 22,
         'MAC' : 'eth0',
@@ -109,6 +119,7 @@ variant_definitions = {
 
     # Nebra Hotspot HAT RPi Light
     "NEBHNT-HHRPL" : {
+        'FRIENDLY': 'Nebra Hotspot HAT RPi Light',
         'SPIBUS': 'spidev0.0',
         'RESET' : 22,
         'MAC' : 'eth0',
@@ -119,6 +130,7 @@ variant_definitions = {
 
     # Nebra Hotspot HAT Tinkerboard 1
     "NEBHNT-HHTK" : {
+        'FRIENDLY': 'Nebra Hotspot HAT Tinkerboard Light',
         'SPIBUS': 'spidev2.0',
         'RESET' : 167,
         'MAC' : 'eth0',
@@ -130,6 +142,7 @@ variant_definitions = {
 
     # Nebra Hotspot HAT Tinkerboard 2
     "NEBHNT-HHTK2" : {
+        'FRIENDLY': 'Nebra Hotspot HAT Tinkerboard 2',
         'SPIBUS': 'spidev2.0',
         'RESET' : 167,
         'MAC' : 'eth0',
@@ -141,6 +154,7 @@ variant_definitions = {
 
     # RAKwireless Hotspot Miner
     "COMP-RAKHM" : {
+        'FRIENDLY': 'RAK Hotspot Miner',
         'SPIBUS': 'spidev0.0',
         'RESET' : 17,
         'MAC' : 'wlan0',
@@ -152,6 +166,7 @@ variant_definitions = {
 
     # Helium Hotspot
     "COMP-HELIUM" : {
+        'FRIENDLY': 'OG Helium Hotspot',
         'SPIBUS': 'spidev0.0',
         'RESET' : 17,
         'MAC' : 'wlan0',
@@ -163,6 +178,7 @@ variant_definitions = {
 
     # DIY Pi Supply Hotspot HAT
     "DIY-PISLGH" : {
+        'FRIENDLY': 'DIY Pi Supply Hotspot HAT',
         'SPIBUS': 'spidev0.0',
         'RESET' : 22,
         'MAC' : 'eth0',
@@ -174,6 +190,7 @@ variant_definitions = {
 
     # Nebra Indoor Hotspot
     "DIY-RAK2287" : {
+        'FRIENDLY': 'DIY RAK2247/RAK2287 HAT',
         'SPIBUS': 'spidev0.0',
         'RESET' : 17,
         'MAC' : 'eth0',
