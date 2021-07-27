@@ -34,6 +34,7 @@ These would also depend on their SOCs being supported by Balena.
 | Syncrobit Hotspot 1 (Pi) |  |  |  |  |   |   | Full |  |
 | Syncrobit Hotspot 2 (RK) |  |  |  |  |   |   | Full |  |
 | Bobcat Miner 300 |  |  |  |  |   |   | Full |  |
+| Sensecap M1 | BCM2711 (Pi4 2gb RAM)  | COMP-SENSECAP |  |  |   |   | Full |  |
 
 # DIY Hotspots
 
