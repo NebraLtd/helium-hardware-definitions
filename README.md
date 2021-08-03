@@ -47,6 +47,15 @@ Please note, DIY Hotspots do not earn HNT.
 | Pi Supply IoT LoRa Gateway HAT | RPi | DIY-PISLGH | 0.0 | 22 |   |   | Light | Any pi with 40 pin header |
 | RAK2287 | RPi | DIY-RAK2287 | 0.0 | 17 |   |   | Light | Any pi with 40 pin header |
 
+# Important Notes
+
+The `variant_definitions.py` file is used, with manual source control, in a number of Nebra software repos:
+- [hm-pktfwd](https://github.com/NebraLtd/hm-pktfwd/tree/shawaj/tidy-up/lib/variant_definitions.py)
+- [hm-config](https://github.com/NebraLtd/hm-config/blob/marvinmarnold/refactor/lib/variant_definitions.py)
+- [hm-diag](https://github.com/NebraLtd/hm-diag/blob/master/Dockerfile)
+
+If you update the `variant_definitions.py` file here, you need to make sure to also update it in any other repos that use it.
+
 # Contributing
 
 If there is hardware that you would like supported the following would be great.
