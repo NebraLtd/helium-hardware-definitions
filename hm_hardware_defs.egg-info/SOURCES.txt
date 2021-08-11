@@ -1,7 +1,0 @@
-README.md
-hm-hardware-defs
-setup.py
-hm_hardware_defs.egg-info/PKG-INFO
-hm_hardware_defs.egg-info/SOURCES.txt
-hm_hardware_defs.egg-info/dependency_links.txt
-hm_hardware_defs.egg-info/top_level.txt
