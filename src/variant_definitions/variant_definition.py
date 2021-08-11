@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 variant_definitions = {
     # Nebra Indoor Hotspot Gen1
     'NEBHNT-IN1': {
