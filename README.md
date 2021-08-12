@@ -4,7 +4,7 @@ This repository contains the python file that contains a GPIO map for all of the
 
 All numbers below are their GPIO / BCM Numbers, not physical pin numbers.
 
-Note: Light hotspot software will work on all listed as variant "full"
+Note: Light hotspot software will also work on all listed as variant "full"
 
 # Nebra Hotspots
 
@@ -47,20 +47,39 @@ Please note, DIY Hotspots do not earn HNT.
 | Pi Supply IoT LoRa Gateway HAT | RPi | DIY-PISLGH | 0.0 | 22 |   |   | Light | Any pi with 40 pin header |
 | RAK2287 | RPi | DIY-RAK2287 | 0.0 | 17 |   |   | Light | Any pi with 40 pin header |
 
+
+# Install
+
+This package is automatically built and published to [our PyPI repo](https://pypi.org/project/hm-hardware-defs) using GitHub Actions. Installing the package is as simple as:
+
+```
+pip install hm-hardware-defs
+```
+
+You can also install a specific version using:
+
+```
+pip install hm-hardware-defs==0.1.4
+```
+
+# Usage
+
+You can use the hardware definitions within your project by importing the package into your python script as follows:
+
+```python
+from hm_hardware_defs.variant import variant_definitions
+```
+
 # Important Notes
 
-The `variant_definitions.py` file is used, with manual source control, in a number of Nebra software repos:
-- [hm-pktfwd](https://github.com/NebraLtd/hm-pktfwd/tree/shawaj/tidy-up/lib/variant_definitions.py)
-- [hm-config](https://github.com/NebraLtd/hm-config/blob/marvinmarnold/refactor/lib/variant_definitions.py)
-- [hm-diag](https://github.com/NebraLtd/hm-diag/blob/master/Dockerfile)
-
-If you update the `variant_definitions.py` file here, you need to make sure to also update it in any other repos that use it.
+This package is used in a number of Nebra software repos:
+- [hm-pktfwd](https://github.com/NebraLtd/hm-pktfwd/)
+- [hm-config](https://github.com/NebraLtd/hm-config/)
+- [hm-diag](https://github.com/NebraLtd/hm-diag/)
 
 # Contributing
 
-If there is hardware that you would like supported the following would be great.
-
-Either:
+If there is hardware that you would like to be supported that is not listed here, please complete one of the following:
 
 * Create an issue on this repository which has the name of the Hotspot, or DIY solution. With at a minimum a link to a pinout of the device and which SBC it is to be used with.
-* Fork this repository and  the device to the array in variant_definitions, update the table above and then create a pull request.
+* Fork this repository and add the device to the array in variant_definitions, update the table above and then create a pull request.
