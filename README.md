@@ -4,7 +4,7 @@ This repository contains the python file that contains a GPIO map for all of the
 
 All numbers below are their GPIO / BCM Numbers, not physical pin numbers.
 
-Note: Light hotspot software will also work on all listed as variant "full"
+Note: Light hotspot software will also work on all models listed as type "full".
 
 # Nebra Hotspots
 
