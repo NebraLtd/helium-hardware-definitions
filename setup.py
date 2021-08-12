@@ -7,8 +7,8 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name='hm-hardware-defs',
     version='0.1.4',
-    author="Aaron Shaw",
-    author_email="shawaj@gmail.com",
+    author="Nebra Ltd",
+    author_email="sales@nebra.com",
     description="Helium Hardware Definitions",
     long_description=long_description,
     long_description_content_type="text/markdown",
