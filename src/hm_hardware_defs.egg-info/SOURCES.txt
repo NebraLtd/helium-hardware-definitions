@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/hm_hardware_defs.egg-info/PKG-INFO
+src/hm_hardware_defs.egg-info/SOURCES.txt
+src/hm_hardware_defs.egg-info/dependency_links.txt
+src/hm_hardware_defs.egg-info/top_level.txt
+src/variant_definitions/__init__.py
+src/variant_definitions/variant_definition.py
