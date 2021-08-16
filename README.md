@@ -9,7 +9,7 @@ Note: Light hotspot software will also work on all models listed as type "full".
 # Nebra Hotspots
 
 | Model | ENV Identifier | SPI Bus | Reset Pin | Status LED | Button |Type | Cellular | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Nebra Indoor Hotspot Gen 1 | NEBHNT-IN1 | 1.2 | 38 | 25 | 26 | Full | False | CM3 based |
 | Nebra Outdoor Hotspot Gen 1 | NEBHNT-OUT1 | 1.2 | 38 | 25 | 24 | Full | True | CM3 based |
 | Nebra Pi 0 Light Hotspot S | NEBHNT-LGT-ZS | 1.2 | 22 | 24 | 23 | Light | False | SPI Based Ethernet |
@@ -28,7 +28,7 @@ We may be adding in support for other vendor's hotspots to use our software soon
 These would also depend on their SOCs being supported by Balena.
 
 | Model | SOC/SBC | ENV Identifier | SPI Bus | Reset Pin | Status LED | Button |Type | Cellular | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Rak Hotspot Miner | BCM2711 (Pi4 2gb RAM)  | COMP-RAKHM |  |  |   |   | Full | False | Only Compatible with V2 hotspots with ECC Key. |
 | OG Helium Hotspot | BCM2711 (Pi4 2gb RAM) | COMP-HELIUM |  |  |   |   | Full | False |  |
 | Syncrobit Hotspot 1 (Pi) |  |  |  |  |   |   | Full | False |  |
@@ -43,7 +43,7 @@ The following DIY options are also supported for light hotspot software only.
 Please note, DIY Hotspots do not earn HNT.
 
 | Model | SOC/SBC | ENV Identifier | SPI Bus | Reset Pin | Status LED | Button |Type | Cellular | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Pi Supply IoT LoRa Gateway HAT | RPi | DIY-PISLGH | 0.0 | 22 |   |   | Light | False | Any pi with 40 pin header |
 | RAK2287 | RPi | DIY-RAK2287 | 0.0 | 17 |   |   | Light | False | Any pi with 40 pin header |
 
