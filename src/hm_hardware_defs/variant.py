@@ -11,7 +11,8 @@ variant_definitions = {
         'STATUS': 25,
         'BUTTON': 26,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # Nebra Indoor Hotspot, Old identifier
@@ -24,7 +25,8 @@ variant_definitions = {
         'STATUS': 25,
         'BUTTON': 26,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # Nebra Outdoor Hotspot Gen1
@@ -37,7 +39,8 @@ variant_definitions = {
         'STATUS': 25,
         'BUTTON': 24,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': True
         },
 
     # Nebra Outdoor Hotspot Old Identifier
@@ -50,7 +53,8 @@ variant_definitions = {
         'STATUS': 25,
         'BUTTON': 24,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': True
         },
 
     # Nebra Pi 0 Light Hotspot SPI Ethernet
@@ -63,7 +67,8 @@ variant_definitions = {
         'STATUS': 24,
         'BUTTON': 23,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # Nebra Pi 0 Light Hotspot USB Ethernet
@@ -76,7 +81,8 @@ variant_definitions = {
         'STATUS': 24,
         'BUTTON': 23,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # Nebra Beaglebone Light Hotspot
@@ -89,7 +95,8 @@ variant_definitions = {
         'STATUS': 31,
         'BUTTON': 30,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # Nebra Pocket Beagle Light Hotspot
@@ -102,7 +109,8 @@ variant_definitions = {
         'STATUS': 31,
         'BUTTON': 30,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # Nebra Hotspot HAT Rockpi 4
@@ -114,7 +122,9 @@ variant_definitions = {
         'MAC': 'eth0',
         'STATUS': 156,
         'BUTTON': 154,
-        'ECCOB': True
+        'ECCOB': True,
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # Nebra Hotspot HAT RPi 3/4 Full
@@ -126,7 +136,9 @@ variant_definitions = {
         'MAC': 'eth0',
         'STATUS': 24,
         'BUTTON': 23,
-        'ECCOB': True
+        'ECCOB': True,
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # Nebra Hotspot HAT RPi Light
@@ -138,7 +150,9 @@ variant_definitions = {
         'MAC': 'eth0',
         'STATUS': 24,
         'BUTTON': 23,
-        'ECCOB': True
+        'ECCOB': True,
+        'TYPE': 'Light',
+        'CELLULAR': False
         },
 
     # Nebra Hotspot HAT Tinkerboard 1
@@ -151,7 +165,8 @@ variant_definitions = {
         'STATUS': 163,
         'BUTTON': 162,
         'ECCOB': True,
-        'TYPE': 'Light'
+        'TYPE': 'Light',
+        'CELLULAR': False
         },
 
     # Nebra Hotspot HAT Tinkerboard 2
@@ -164,7 +179,8 @@ variant_definitions = {
         'STATUS': 163,
         'BUTTON': 162,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # RAKwireless Hotspot Miner
@@ -176,7 +192,8 @@ variant_definitions = {
         'STATUS': 20,
         'BUTTON': 21,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # Helium Hotspot
@@ -188,7 +205,8 @@ variant_definitions = {
         'STATUS': 20,
         'BUTTON': 21,
         'ECCOB': True,
-        'TYPE': 'Full'
+        'TYPE': 'Full',
+        'CELLULAR': False
         },
 
     # DIY Pi Supply Hotspot HAT
@@ -200,7 +218,8 @@ variant_definitions = {
         'STATUS': 20,
         'BUTTON': 21,
         'ECCOB': False,
-        'TYPE': 'Light'
+        'TYPE': 'Light',
+        'CELLULAR': False
         },
 
     # Nebra Indoor Hotspot
@@ -212,6 +231,7 @@ variant_definitions = {
         'STATUS': 20,
         'BUTTON': 21,
         'ECCOB': False,
-        'TYPE': 'Light'
+        'TYPE': 'Light',
+        'CELLULAR': False
         }
 }
