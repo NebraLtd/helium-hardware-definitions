@@ -81,5 +81,5 @@ This package is used in a number of Nebra software repos:
 
 If there is hardware that you would like to be supported that is not listed here, please complete one of the following:
 
-* [Create an issue](https://github.com/NebraLtd/helium-hardware-definitions/issues/new) on this repository which has the name of the Hotspot, or DIY solution. With at a minimum a link to a pinout of the device and which SBC it is to be used with.
+* [Create an issue](https://github.com/NebraLtd/helium-hardware-definitions/issues/new) on this repository which has the name of the Hotspot or DIY solution with (at a minimum) a link to a pinout of the device and which SBC it is to be used with. The more information you can provide the better!
 * Fork this repository and add the device to the array in [variant.py](https://github.com/NebraLtd/helium-hardware-definitions/blob/master/src/hm_hardware_defs/variant.py), update the table above and then create a pull request.
