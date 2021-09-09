@@ -29,12 +29,12 @@ These would also depend on their SOCs being supported by Balena.
 
 | Model | SOC/SBC | ENV Identifier | SPI Bus | Reset Pin | Status LED | Button |Type | Cellular | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Rak Hotspot Miner | BCM2711 (Pi4 2gb RAM)  | COMP-RAKHM |  |  |   |   | Full | False | Only Compatible with V2 hotspots with ECC Key. |
-| OG Helium Hotspot | BCM2711 (Pi4 2gb RAM) | COMP-HELIUM |  |  |   |   | Full | False |  |
+| Rak Hotspot Miner | BCM2711 (Pi4 2gb RAM)  | COMP-RAKHM | 0.0 | 17 | 20 | 21 | Full | False | Only Compatible with V2 hotspots with ECC Key. |
+| OG Helium Hotspot | BCM2711 (Pi4 2gb RAM) | COMP-HELIUM | 0.0 | 17 | 20 | 21 | Full | False |  |
 | Syncrobit Hotspot 1 (Pi) |  |  |  |  |   |   | Full | False |  |
 | Syncrobit Hotspot 2 (RK) |  |  |  |  |   |   | Full | False |  |
 | Bobcat Miner 300 |  |  |  |  |   |   | Full | False |  |
-| Sensecap M1 | BCM2711 (Pi4 2gb RAM)  | COMP-SENSECAP |  |  |   |   | Full | False |  |
+| SenseCAP M1 | BCM2711 (Pi4 2gb RAM)  | COMP-SENSECAPM1 | 0.0 | 17 | 20 | 21 | Full | False |  |
 
 # DIY Hotspots
 
