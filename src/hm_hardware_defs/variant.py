@@ -208,8 +208,8 @@ variant_definitions = {
         'TYPE': 'Full',
         'CELLULAR': False
         },
-    
-        # SenseCAP M1 Hotspot
+
+    # SenseCAP M1 Hotspot
     'COMP-SENSECAPM1': {
         'FRIENDLY': 'SenseCAP M1 Hotspot',
         'SPIBUS': 'spidev0.0',
