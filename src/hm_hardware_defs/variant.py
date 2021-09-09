@@ -208,6 +208,19 @@ variant_definitions = {
         'TYPE': 'Full',
         'CELLULAR': False
         },
+    
+        # SenseCAP M1 Hotspot
+    'COMP-SENSECAPM1': {
+        'FRIENDLY': 'SenseCAP M1 Hotspot',
+        'SPIBUS': 'spidev0.0',
+        'RESET': 17,
+        'MAC': 'wlan0',
+        'STATUS': 20,
+        'BUTTON': 21,
+        'ECCOB': True,
+        'TYPE': 'Full',
+        'CELLULAR': False
+        },
 
     # DIY Pi Supply Hotspot HAT
     'DIY-PISLGH': {
