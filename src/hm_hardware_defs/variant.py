@@ -185,7 +185,7 @@ variant_definitions = {
 
     # RAKwireless Hotspot Miner
     'COMP-RAKHM': {
-        'FRIENDLY': 'RAK Hotspot Miner',
+        'FRIENDLY': 'RAK Hotspot',
         'SPIBUS': 'spidev0.0',
         'RESET': 17,
         'MAC': 'wlan0',
@@ -198,7 +198,7 @@ variant_definitions = {
 
     # Helium Hotspot
     'COMP-HELIUM': {
-        'FRIENDLY': 'OG Helium Hotspot',
+        'FRIENDLY': 'Helium Hotspot',
         'SPIBUS': 'spidev0.0',
         'RESET': 17,
         'MAC': 'wlan0',
@@ -211,7 +211,7 @@ variant_definitions = {
 
     # SenseCAP M1 Hotspot
     'COMP-SENSECAPM1': {
-        'FRIENDLY': 'SenseCAP M1 Hotspot',
+        'FRIENDLY': 'SenseCAP M1',
         'SPIBUS': 'spidev0.0',
         'RESET': 17,
         'MAC': 'wlan0',
