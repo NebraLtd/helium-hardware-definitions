@@ -1,5 +1,7 @@
 # Helium Hardware Definitions
 
+**IMPORTANT:** This repository will go into 'Archive' mode soon as it has been migrated to [hm-pyhelper](https://github.com/NebraLtd/hm-pyhelper).
+
 This repository contains the python file that contains a GPIO map for all of the different hardware combinations to be supported by the Nebra Helium Hotspot Software.
 
 All numbers below are their GPIO / BCM Numbers, not physical pin numbers.
